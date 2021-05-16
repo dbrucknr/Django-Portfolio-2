@@ -1,5 +1,5 @@
 from rest_framework import generics
-from .models import Zipcode
+from location.models import Zipcode
 from .serializers import ZipcodeSerializer
 # Search and Filter zipcode packages:
 from rest_framework import filters

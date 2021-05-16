@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Zipcode
+from location.models import Zipcode
 
 class ZipcodeSerializer(serializers.ModelSerializer):
     class Meta:
